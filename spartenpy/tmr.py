@@ -4,15 +4,15 @@ import numpy as np
 
 class crs_tensor(object):
 
-    __init__(self):
-    self.RO = []
-    self.CO = []
-    self.VL = []
+    def __init__(self):
+        self.RO = []
+        self.CO = []
+        self.VL = []
 
-    
+
 class ccs_tensor(object):
 
-    __init__(self):
-    self.RO = []
-    self.CO = []
-    self.VL = []
+    def __init__(self):
+        self.RO = []
+        self.CO = []
+        self.VL = []
